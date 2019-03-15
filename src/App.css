@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Viga');
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: #1F7A8C;
+  color: #fff;
+  height: 52px;
+  font-size: 15px;
+  letter-spacing: 0.05rem;
+}
+
+.logo {
+  font-family: 'Viga', sans-serif;
+  font-size: 24px;
+  margin-left: 16px;
+  float: left;
+}
+
+.datasearch {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.datasearch .searchbox {
+  min-width: 400px;
+  border-radius: 30px;
+  padding: 5px 16px 5px 30px;
+}
+
+.suggestionlist {
+  color: #424242;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.display {
+  display: flex;
+  margin-top: 60px;
+}
+
+.leftSidebar {
+  font-family: 'Lato', sans-serif;
+  width: 420px;
+  height: 100%;
+  padding: 15px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-right: 1px solid #f0f0f0;
+}
+
+.filter {
+  padding-bottom: 20px;
+}
+
+.property {
+  padding-bottom: 5px;
+}
+
+.mainBar {
+  font-family: 'Lato', sans-serif;
+  width: calc(100% - 420px);
+  position: relative;
+  left: 420px;
+  padding: 0px 30px;
+  background-color: #FFFFFF;
+}
