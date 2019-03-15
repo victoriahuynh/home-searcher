@@ -9,7 +9,7 @@ below for getting csv of homes)
 - Readme with instructions on how to run the app 
 - Basic styling and design 
 ## Outcome
-The app is hosted [here.](https://warm-earth-32641.herokuapp.com/)
+The web app is hosted [here.](https://warm-earth-32641.herokuapp.com/)
 
 ### Usage
 - You can start typing an address into the search bar and it will auto-suggest addresses for you, which you can then select. You can also just hit enter on your query and the app will return results with (exact) matches for the keywords you have entered.
